@@ -1,0 +1,143 @@
+html, * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+/*    font: NewYorker.TTF*/
+    font: TribalGaramond.ttf;
+    font: Calibril.ttf;
+}
+
+@font-face {
+  /*  font-family: NewYorker;
+    src: url(NewYorker.TTF);*/
+    font-family: TribalGaramond;
+    src: url(TribalGaramond.ttf);
+  
+    font-family: Calibril;
+    src: url(Calibril.ttf);
+}
+
+* {
+ /*  font-family: NewYorker;   TELLING THEM ALL TO BE THIS FONT*/
+   font-family: TribalGaramond;
+}
+ 
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ccc;
+    font-size: 28px;
+        font-family: Calibril;
+
+}
+
+.header {
+    padding-top: 15px;
+    text-align: center;
+}
+.page-title {
+    padding-top: 15px;
+    padding-bottom: 15PX;
+    text-align: center;
+    font-size: 28px;
+}
+
+.navigation-list {
+	padding-top: 15PX;
+    list-style: none; 
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+        text-align: center;
+}
+ 
+.navigation-list-item {
+    display: inline-block;
+    padding: 20px;
+    font-size: 12px; 
+ /*   font-family: "Times New Roman", Times, serif; */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-family: Calibril;
+}
+
+
+.two-article-container .article-container {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    border-bottom: : 1px solid #ccc;
+    padding-top: 25px;
+
+}
+ 
+.two-article-container {
+    overflow: hidden;
+    margin-top: 30px;
+    
+}
+ 
+.column-1 {
+    padding-right: 2%;
+    border-right: 1px solid #ccc;
+        overflow: hidden;
+}
+.column-2 {
+    padding-left: 2%;
+        overflow: hidden;
+}
+
+
+
+.list-article-container .article-container {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    margin-top: 30px;
+       overflow: hidden;
+
+}
+
+.item-1-text {
+    vertical-align: text-top;
+    padding: 15px;
+    
+}
+
+
+
+.palace-photo {
+    width: 30%;
+    vertical-align: 30%;
+    padding: 10px;
+    float: left;
+    overflow: hidden;
+}
+
+.flex-container {
+    border: 2px black;
+    display: flex;
+/*        
+    display: center;
+    justify-content: space-around;
+    justify-content: flex-end;
+    height: 35%;
+    width: 100%;
+        flex-basis: 80%; 
+    justify-content: space-between: 10px ;
+*/
+    justify-content: center;
+    align-content: center;
+flex-direction: row;
+
+   /*      flex-wrap: wrap;*/
+
+}
+
+.item {
+    background-color: white;
+}
+
+
+
+
+}
