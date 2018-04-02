@@ -27,9 +27,46 @@ h1 {
     text-transform: uppercase;
     border-bottom: 1px solid #ccc;
     font-size: 28px;
-        font-family: Calibril;
+       font-family: TribalGaramond;
+   /*      font-family: Calibril; */
 
 }
+p {
+    margin-bottom: 8px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 14px;  
+    padding-bottom: 5px;
+    padding-top: 5px;
+    line-height: 19px;
+}
+
+h3 {
+        font-size: 26px;
+        padding-bottom: 3px; 
+        text-decoration: none;
+        color: black;
+
+}
+
+ h4 {
+    color: red;
+    font-size: 12px;
+    padding-bottom: 5px; 
+    padding-top: 3px; 
+ }
+
+  h6 {
+        font-size: 30px;
+        padding-bottom: 20px;
+}
+ h5 {
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
 
 .header {
     padding-top: 15px;
@@ -77,13 +114,14 @@ h1 {
 }
  
 .column-1 {
+    padding-left: 2%;
     padding-right: 2%;
     border-right: 1px solid #ccc;
-        overflow: hidden;
+     overflow: hidden;
 }
 .column-2 {
     padding-left: 2%;
-        overflow: hidden;
+    overflow: hidden;
 }
 
 
@@ -113,6 +151,23 @@ h1 {
     overflow: hidden;
 }
 
+.octavia-photo {
+    width: 90%;
+    vertical-align: 30%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+ .boston-photo {
+    width: 80%;
+    height: 230px;
+}
+ .gwarming-photo {
+    width: 60%;
+    height: 230px;
+}
+
+
 .flex-container {
     border: 2px black;
     display: flex;
@@ -137,7 +192,45 @@ flex-direction: row;
     background-color: white;
 }
 
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    border-top: 1px solid #ccc;
+    padding-top: 25px;
+    border-bottom: : 1px solid #ccc;
+}
 
+.octavia-photo{
+      padding-bottom: 15px;  
+          overflow: hidden;
+      align-items: center;
+}
+
+.two-article-container .article-container {
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    border-top: 1px solid #ccc;
+    border-bottom: : 1px solid #ccc;
+    padding-top: 25px;
+
+}
+ 
+.two-article-container {
+    overflow: hidden;
+    margin-top: 30px;
+    
+}
+
+ 
+.column-1 {
+    padding-right: 2%;
+    border-right: 1px solid #ccc;
+}
+.column-2 {
+    padding-left: 2%;
+}
 
 
 }
